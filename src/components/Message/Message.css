@@ -1,5 +1,5 @@
 .message {
-  margin: 5px 0;
+  margin: 5px 5px;
   align-self: left;
   background-color: #5b5bff;
   border-radius: 16px;
@@ -21,9 +21,19 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 15px;
 }
-.answer_block{
+
+.user_block{
+  display: flex;
   opacity: 0;
-  animation: show 5s forwards;
+  animation: show 3s forwards;
+  align-self: start;
+}
+
+.answer_block{
+  display: flex;
+  opacity: 0;
+  animation: show 3s forwards;
+  flex-direction: row-reverse;
 }
 @keyframes show{
   0%{
