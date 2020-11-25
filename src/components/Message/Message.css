@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+.message_block{
+  margin: 5px 0;
+  margin-left: 5px;
+  margin-right: 80px;
+  align-self: left;
+  background-color: #5b5bff;
+  border-radius: 16px;
+}
+.message {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 15px;
+  word-break: break-all;
+=======
 .message {
   margin: 5px 5px;
   align-self: left;
@@ -6,6 +21,7 @@
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 15px;
+>>>>>>> ac8ec9601349bf488e9924ca761cac1b55294870
 }
 
 .message__like {
@@ -15,6 +31,18 @@
   cursor: pointer;
 }
 
+<<<<<<< HEAD
+.answer_block{
+  margin: 5px 0px;
+  margin-left: 60px;
+  margin-right: 5px;
+  align-self: left;
+  background-color: orange;
+  border-radius: 16px;
+}
+
+=======
+>>>>>>> ac8ec9601349bf488e9924ca761cac1b55294870
 .author{
   color: #000000;
   align-self: left;
@@ -29,7 +57,12 @@
   align-self: start;
 }
 
+<<<<<<< HEAD
+
+.author_block{
+=======
 .answer_block{
+>>>>>>> ac8ec9601349bf488e9924ca761cac1b55294870
   display: flex;
   opacity: 0;
   animation: show 3s forwards;
